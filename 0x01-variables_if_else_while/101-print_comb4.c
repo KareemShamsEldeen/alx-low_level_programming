@@ -13,22 +13,21 @@
  */
 int main(void)
 {
-int x, z, y;
+int digit1, digit2, digit3;
 
-for (x = 0; x < 8; y++)
+for (digit1 = 0; digit1 < 8; digit1++)
 {
-for (z = x + 1; z < 9; z++)
+for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 {
-for (y = z+ 1; y < 10; y++)
+for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 {
-putchar((x % 10) + '0');
-putchar((z % 10) + '0');
-putchar((y % 10) + '0');
-if (x == 7 && z == 8 && y == 9)
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
+putchar((digit3 % 10) + '0');
+if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 {
 continue;
 }
-
 putchar(',');
 putchar(' ');
 }
