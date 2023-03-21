@@ -1,25 +1,23 @@
-/*
- * File: 0-putchar.c
- * Auth: Kareem Hossam
- */
-
 #include "main.h"
 
 /**
- * main - main function .
- *
- * Return: Always 0.
+ * main - Entry point
+ * Return: Always 0
  */
-int main(void)
-{
-char h[] = "_putchar";
-int s = sizeof(h);
-int i;
-for (i = 0; i < s; i++)
-{
-_putchar(h[i]);
-}
 
-_putchar('\n');
-return (0);
+int main(void)
+
+{
+
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+
 }
